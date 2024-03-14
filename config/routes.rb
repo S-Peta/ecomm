@@ -18,4 +18,6 @@ Rails.application.routes.draw do
   end
 
   get "admin" => "admin#index"
+
+  get "product" => "product#index"
 end
